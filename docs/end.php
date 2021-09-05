@@ -5,7 +5,7 @@
      <link rel="stylesheet" type="text/css"href="min_stil.css" >
 </head>
   <!-- Slut på sidans innehåll -->
-    </div>
+    
 
     <!-- Här börjar elementet som innehåller footer -->
     <footer>
@@ -69,8 +69,4 @@
     </footer>
     <!-- Slut på sidans footer -->
 
-  </div>
-  <!-- Slut på det centrerade elementet som innehåller alla sidans delar -->
-
-</body>
-</html>
+  
