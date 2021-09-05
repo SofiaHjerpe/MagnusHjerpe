@@ -348,14 +348,15 @@ a{
     font-weight: bold;
 }
 
+
 .rightFooter li  {
 
 
 
       align-items: center;
 
-    top: 100px;
-   left:500px;
+    top: 0px;
+   left:400px;
    flex-flow: row no-wrap;
    display: inline-block;
     padding: 10px 15px;
@@ -374,13 +375,13 @@ a{
 /* dropmeny startsida*/
 
 #menus #menusalt { 
-    margin-top:100px;
+    margin-top:10px;
     display: block;
     position: absolute;
     width: 100%;
      text-transform: none;
     font-weight: normal;
-    right: 800px;
+    right: 400px;
       z-index: 1;
  text-align: center;
   
@@ -394,12 +395,12 @@ a{
 
 /* dropmeny galleri*/
 #menug #menugalt { 
-          margin-top:100px;
+          margin-top:10px;
     display:block;
     position: absolute;
     width: 100%;
     text-transform: none;
-    right: 800px;
+    right: 400px;
      z-index: 1;
     text-align: center;
    font-weight: normal;
@@ -414,10 +415,10 @@ a{
 
 /* dropmeny om mig*/
 #menuo #dropoalt { 
-      margin-top:100px;
+      margin-top:10px;
   display:block;
     position: absolute;
-    right: 800px;
+    right: 400px;
     width: 100%;
     text-transform: none;
    
@@ -433,12 +434,12 @@ a{
 }
 /* dropmeny kontakt*/
 #menuk #dropkalt { 
-        margin-top:100px;
+        margin-top:10px;
   display:block;
     position: absolute;
     width: 100%;
     text-transform: none;
-  right: 810px;
+  right: 400px;
        text-align: center;
      z-index: 1;
    font-weight: normal;
@@ -477,16 +478,28 @@ a{
     
 
 }
+
 .fb {
-   margin-left:1300px;
+  
+   margin-left:0px;
     margin-top: 10px;
+      z-index: 1;
+   
+}
+.iconss {
+      margin-top: 10px;
+    margin-left:900px;
+     width: 100px;
+    height: 50px;
+     background-color: rgb(252,252,234);
+ 
 }
 
 .mail {
-   margin-left:1330px;
+   margin-left:30px;
     margin-top: -24px;
+    z-index: 1;
 }
-
 
 /*
 :root {
