@@ -46,7 +46,7 @@ height: 200px;
       align-items: center;
   background-color:rgb(252,252,234);
     top: 0px;
-   right:100px;
+   right:0px;
    flex-flow: row no-wrap;
    display: inline-block;
     padding: 10px 15px;
