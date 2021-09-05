@@ -317,13 +317,44 @@ a{
 }
 
 
+
+.skarm {
+    margin-top: -300px;
+    margin-left: 500px;
+    font-family: "Montserrat";
+    background-color: rgba(255,255,255);
+     width: 500px; 
+    height: 410px; 
+    z-index: 1; 
+    text-align: center;
+    justify-content: center;
+    
+    
+  
+}
+.screen{
+    padding-top: 50px;
+   justify-content: center;
+    align-content: center;
+}
+
+.screendrawing {
+    padding-top:20px;
+     font-family: "Montserrat";
+      
+    
+    font: 16px Montserrat;
+    font-size:16px;
+    font-weight: bold;
+}
+
 .rightFooter li  {
 
 
 
       align-items: center;
 
-    top: 0px;
+    top: 100px;
    left:800px;
    flex-flow: row no-wrap;
    display: inline-block;
@@ -343,7 +374,7 @@ a{
 /* dropmeny startsida*/
 
 #menus #menusalt { 
-    margin-top:10px;
+    margin-top:100px;
     display: block;
     position: absolute;
     width: 100%;
@@ -363,7 +394,7 @@ a{
 
 /* dropmeny galleri*/
 #menug #menugalt { 
-          margin-top:10px;
+          margin-top:100px;
     display:block;
     position: absolute;
     width: 100%;
@@ -383,7 +414,7 @@ a{
 
 /* dropmeny om mig*/
 #menuo #dropoalt { 
-      margin-top:10px;
+      margin-top:100px;
   display:block;
     position: absolute;
     right: 800px;
@@ -402,7 +433,7 @@ a{
 }
 /* dropmeny kontakt*/
 #menuk #dropkalt { 
-        margin-top:10px;
+        margin-top:100px;
   display:block;
     position: absolute;
     width: 100%;
@@ -454,35 +485,6 @@ a{
 .mail {
    margin-left:1330px;
     margin-top: -24px;
-}
-.skarm {
-    margin-top: -300px;
-    margin-left: 500px;
-    font-family: "Montserrat";
-    background-color: rgba(255,255,255);
-     width: 500px; 
-    height: 410px; 
-    z-index: 1; 
-    text-align: center;
-    justify-content: center;
-    
-    
-  
-}
-.screen{
-    padding-top: 50px;
-   justify-content: center;
-    align-content: center;
-}
-
-.screendrawing {
-    padding-top:20px;
-     font-family: "Montserrat";
-      
-    
-    font: 16px Montserrat;
-    font-size:16px;
-    font-weight: bold;
 }
 
 
