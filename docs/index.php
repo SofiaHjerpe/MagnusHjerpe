@@ -1,7 +1,7 @@
 <?php
 // Inkludera start.php. Innehåller start-html och body
 // header, navigation och start av sidinnehåll.
-require 'start.php';
+
 
 
 // Kolla vad (om något) som finns i querystringen
