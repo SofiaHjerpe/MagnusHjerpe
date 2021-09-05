@@ -2,7 +2,7 @@
 *{
     padding: 0;
         margin: 0;
-    
+
      
 }
 
@@ -54,7 +54,7 @@ height: 200px;
  font: 16px Montserrat; 
     font-weight: bold;
     transition: all 0.8s ease;
- position:relative; 
+ position: relative; 
 }
 /*länkar får svart färg*/
 li a:link { 
@@ -249,7 +249,7 @@ background-color: rgba(122,204,224,0.75);
 }
 
 .change .line-1{
-    transform: rotateZ(-45deg) translate(-8px, 11px);
+    transform: rotateZ(-45deg) translate(-8px, 10px);
 }
 .change .line-2 {
     opacity: 0;
@@ -283,6 +283,7 @@ p {
     z-index: 1; 
     text-align: center;
     justify-content: center;
+    
     
   
 }
@@ -328,6 +329,7 @@ a{
     z-index: 1; 
     text-align: center;
     justify-content: center;
+    margin-bottom: 340px;
     
     
   
@@ -347,16 +349,28 @@ a{
     font-size:16px;
     font-weight: bold;
 }
+.rightFooter {
+      background-color: rgb(252,252,234);
+    width: 1400px;
+    height: 200px;
+left: -300px;
+    justify-content: center;
+    right: 300px;
+    
+}
 
+footer {
+    background-color: rgb(252,252,234);
+    
+}
 
 .rightFooter li  {
 
 
 
       align-items: center;
-
-    top: 0px;
-   left:400px;
+margin-top: 0px;
+   
    flex-flow: row no-wrap;
    display: inline-block;
     padding: 10px 15px;
@@ -366,7 +380,8 @@ a{
     transition: all 0.8s ease;
  position:relative; 
 
-    background-color: rgb(252,252,234);
+    border-radius: 0 0 0 0;
+  
 }
 
 
@@ -375,18 +390,19 @@ a{
 /* dropmeny startsida*/
 
 #menus #menusalt { 
-    margin-top:10px;
+  top:0px;
     display: block;
     position: absolute;
     width: 100%;
      text-transform: none;
     font-weight: normal;
-    right: 400px;
+    right: 0px;
       z-index: 1;
  text-align: center;
+    top: 100%;
   
     font-size: 10px;
-    top: 100%;
+    
            font-weight: normal;
   justify-content: center;
    
@@ -395,18 +411,19 @@ a{
 
 /* dropmeny galleri*/
 #menug #menugalt { 
-          margin-top:10px;
+         top:0px;
     display:block;
     position: absolute;
     width: 100%;
     text-transform: none;
-    right: 400px;
+    right: 0px;
      z-index: 1;
     text-align: center;
    font-weight: normal;
  
     font-size: 10px;
     top: 100%;
+   
       justify-content: center;
 }
 
@@ -415,37 +432,39 @@ a{
 
 /* dropmeny om mig*/
 #menuo #dropoalt { 
-      margin-top:10px;
+    top:0px;
   display:block;
     position: absolute;
-    right: 400px;
+    right: 0px;
     width: 100%;
     text-transform: none;
+    top: 100%;
    
      z-index: 1;
         text-align: center;
   font-weight: normal;
    
     font-size: 10px;
-    top: 100%;
+  
        
  
       justify-content: center;
 }
 /* dropmeny kontakt*/
 #menuk #dropkalt { 
-        margin-top:10px;
+    top:0px;
   display:block;
     position: absolute;
     width: 100%;
     text-transform: none;
-  right: 400px;
+  right: 0px;
        text-align: center;
      z-index: 1;
    font-weight: normal;
+    top: 100%;
     
     font-size: 10px;
-    top: 100%;
+ 
        
   justify-content: center;
 }
@@ -481,14 +500,14 @@ a{
 
 .fb {
   
-   margin-left:0px;
-    margin-top: 10px;
+   margin-left:40px;
+    margin-top: 0px;
       z-index: 1;
    
 }
 .iconss {
-      margin-top: 10px;
-    margin-left:900px;
+      margin-top: -150px;
+    margin-left:940px;
      width: 100px;
     height: 50px;
      background-color: rgb(252,252,234);
@@ -496,7 +515,7 @@ a{
 }
 
 .mail {
-   margin-left:30px;
+   margin-left:70px;
     margin-top: -24px;
     z-index: 1;
 }
