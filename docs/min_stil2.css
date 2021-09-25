@@ -1,10 +1,18 @@
+*{
+    padding: 0;
+        margin: 0;
+
+     
+}
+
+
 /* logga*/
-.logo2 {
+.logo22 {
     top:0px;
     width: 60%;
   
 }
-.logo2 img {
+.logo22 img {
 
     width: 100%;
     
@@ -16,7 +24,7 @@ ul{
   
 }
 .minnavbar {
-    top: 0;
+ top: 0;
     margin-top: 0;
 width:1440px;
 height: 200px;
@@ -31,7 +39,7 @@ height: 200px;
 .minnavbar li  {
 
       align-items: center;
-  background-color:rgb(252,252,234);
+
     top: 0px;
    right:0px;
    flex-flow: row no-wrap;
@@ -176,31 +184,30 @@ background-color: rgba(122,204,224,0.75);
     border-radius: 0 0 0 0;
      font-weight: bold;
     z-index: 1;
-        
-}
+        }
 
-.change {
+.change {   
+right: 0;
     
-right: 0; 
 }
-
-.nav-list {
+/*
+.list {
     text-align: right;
-    
-}
-.nav-item {
+     
+}*/
+
+.l-item {
     list-style: none; 
     margin: 25px;
     text-decoration: none;
-}
+   }
 
 
-.nav-item:hover {
+.l-item:hover {
    cursor: pointer; 
 background-color: rgba(122,204,224,0.75);
-    
-    
-}
+    }
+
 .hamburger-menu2 {
     background-color: rgba(122,204,224);
     width: 45px; 
@@ -209,7 +216,7 @@ background-color: rgba(122,204,224,0.75);
     margin-top:-320px;
     left: 1350px;
     cursor:pointer;
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-around;
     border-style: solid;
@@ -221,8 +228,7 @@ background-color: rgba(122,204,224,0.75);
 
 .line {
   align-items: center;
-    
-    width: 80%; 
+     width: 80%; 
     height: 3px;
     top:0; 
     margin-left: 4px;
