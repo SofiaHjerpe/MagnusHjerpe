@@ -189,30 +189,26 @@ background-color: rgba(122,204,224,0.75);
     border-radius: 0 0 0 0;
      font-weight: bold;
     z-index: 1;
-        
-}
+        }
 
 .change {
     
 right: 0; 
 }
-
+/*
 .nav-list {
     text-align: right;
     
-}
+}*/
 .nav-item {
     list-style: none; 
     margin: 25px;
     text-decoration: none;
 }
 
-
 .nav-item:hover {
    cursor: pointer; 
 background-color: rgba(122,204,224,0.75);
-    
-    
 }
 .hamburger-menu {
     background-color: rgba(122,204,224);
